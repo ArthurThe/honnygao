@@ -7,3 +7,5 @@
 3. git commit -m "message" 将文件修改提交到版本库
 4. git status 辅助命令 查看工作区和版本库的状态   git diff 辅助命令 查看文件修改的内容
 5. git log 查看提交版本历史记录  git reflog 查看版本改变的历史记录
+6. git reset --hard HEAD^ 回退到上一个版本  git reset --hard commitID 回退到指定的版本
+7. git restore 文件名  撤销工作区的修改   git restore --staged 文件名 撤销暂存区的修改
