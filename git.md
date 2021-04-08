@@ -9,4 +9,10 @@
 5. git log 查看提交版本历史记录  git reflog 查看版本改变的历史记录
 6. git reset --hard HEAD^ 回退到上一个版本  git reset --hard commitID 回退到指定的版本
 7. git restore 文件名  撤销工作区的修改   git restore --staged 文件名 撤销暂存区的修改
-8. rm 文件名  从工作区删除文件  git rm 文件名  从版本库删除文件  
+8. rm 文件名  从工作区删除文件  git rm 文件名  从版本库删除文件 
+9. 创建远程库  
+    + 生成密钥 ssh-keygen -t rsa -C "honnygao@163.com"  
+    + 把密钥放到github账号下的ssh里
+    + 在github上创建一个新的仓库  
+    + git remote add origin git@github.com:honnygao/zz2101.git  
+    + git push -u origin master
