@@ -6,4 +6,4 @@
 2. git add filename 把文件添加到版本库（暂存区）
 3. git commit -m "message" 将文件修改提交到版本库
 4. git status 辅助命令 查看工作区和版本库的状态   git diff 辅助命令 查看文件修改的内容
-5. git log 查看版本历史记录
+5. git log 查看提交版本历史记录  git reflog 查看版本改变的历史记录
