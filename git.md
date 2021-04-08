@@ -5,4 +5,4 @@
 1. git init 初始化一个本地版本库  路径后面多一个master标识 master是版本库的一个默认分支
 2. git add filename 把文件添加到版本库（暂存区）
 3. git commit -m "message" 将文件修改提交到版本库
-4. git status 测试命令（ 辅助） 查看工作区和版本库的状态
+4. git status 辅助命令 查看工作区和版本库的状态   git diff 辅助命令 查看文件修改的内容
